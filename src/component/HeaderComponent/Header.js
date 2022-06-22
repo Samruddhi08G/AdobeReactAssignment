@@ -8,11 +8,16 @@ import menu_icon from './../../asset/menu@2x.png';
  
 
 class Header extends React.Component {
+    state = {flag: false}
     render() {
       return(
         <>
         <header>
-             <img src={menu_icon} className="menu-icon" alt="menu_icon" />
+            <div className="menu-icon" onClick={() =>{
+                this.setState({flag: !this.state.flag})
+            }}>
+                <img src={menu_icon} className="menu-icon" alt="menu_icon" />
+            </div>
              <img src={logo} className="App-logo" alt="VeniaLogo" />
             <nav>
                 <div className="nav-middle-section">
@@ -41,13 +46,14 @@ class Header extends React.Component {
             </nav>
         </header>
             
-             <div className="nav-mobile-middle-section">
-                <img src={menu_icon} className="menu-icon" alt="menu_icon" />
+             {this.state.flag?<div className="nav-mobile-middle-section">
+               
                     <lable>Women</lable>
                     <lable>Men</lable>
                     <lable>Smart Gear</lable>
                     <lable>Accessories</lable>
                 </div>
+                :""}
             </>
         ) 
         

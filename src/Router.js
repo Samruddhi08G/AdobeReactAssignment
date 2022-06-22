@@ -5,26 +5,21 @@ import ProductDetails from './component/ProductDetailsComponent/ProductDetails';
 import Cart from './component/CartComponent/Cart';
 import { BrowserRouter, Routes, Route, useLocation, Navigate, useNavigate } from "react-router-dom";
 
-import Sample from './component/SampleComponent/Sample';
-
-
 const Router = () =>(
 
     <BrowserRouter>
         <App>
             <Routes>
-                <Route path="/" element={
+                <Route path="adobereactassignment" element={
                     <Home />
                 } />
                 <Route path="/product/:productId" element={
                     <ProductDetails />
                 } />
-                <Route path="/cart/:productId" element={
+                <Route path="/cart" element={
                     <Cart />
                 } />
-                <Route path="#" element={
-                    <Sample />
-                } />
+                
             </Routes>
         </App>
     </BrowserRouter>

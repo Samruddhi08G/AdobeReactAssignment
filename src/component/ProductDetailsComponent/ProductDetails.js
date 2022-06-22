@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import axios from "axios";
 import { useParams } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
-import {selectedProduct, removeSelectedProduct,} from "../../redux/actions/productsActions";
+import {selectedProduct, removeSelectedProduct,addProductsToCart} from "../../redux/actions/productsActions";
 import './productdetails.scss';
 import color1 from './../../asset/Swatch 01.png';
 import color2 from './../../asset/Swatch 02.png';
@@ -29,10 +29,14 @@ const ProductDetails = () => {
     dispatch(selectedProduct(response.data));
   };
   let navigate = useNavigate(); 
+
   const routeChange = () =>{ 
-    let path = `/cart/:productId`; 
+    let path = `/cart`; 
     navigate(path);
+    dispatch(addProductsToCart(product))
+
   }
+
   useEffect(() => {
     if (productId && productId !== "") fetchProductDetail(productId);
     return () => {

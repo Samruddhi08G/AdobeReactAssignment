@@ -12,9 +12,7 @@ import button_image from './../../asset/PP_BTN.png'
 
 
 const Cart = () => {
- const items = useSelector(
-  state=> state.product.Cart
- );
+ const items = useSelector(state=> state.addCart);
  const renderProductList = items.map((product) => {
   const {  title, image, price, category, description } = product;
   return (
@@ -33,7 +31,7 @@ const Cart = () => {
                 <label className="name">{title}</label>
                 <label className="size">Size:</label>
                 <label className="color">Color:</label>
-                <h4>{price}</h4>
+                <h5>{price}</h5>
               </div>
             </div>
             <div className="cart-product-quantity-section">
@@ -126,7 +124,7 @@ const Cart = () => {
 
   );
 });
-  return <div className="productList-grid">{renderProductList}</div>
+  return <div className="cart-details">{renderProductList}</div>
 }
 
 

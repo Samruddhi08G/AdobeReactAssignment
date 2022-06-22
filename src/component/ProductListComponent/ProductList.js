@@ -26,7 +26,7 @@ const ProductList = () => {
   return (
     <div>
         <div className="">
-        <ProductComponent />
+            <ProductComponent />
         </div>
         <div className="pagination-section">
             <Pagination />
