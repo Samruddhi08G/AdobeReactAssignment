@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Samruddhi08G/AdobeReactAssignment/static/css/main.7dd3c899.css",
-    "main.js": "/Samruddhi08G/AdobeReactAssignment/static/js/main.fe499dee.js",
-    "static/media/bannerImage.jpg": "/Samruddhi08G/AdobeReactAssignment/static/media/bannerImage.68e0f3de4d5f73aabf7f.jpg",
-    "static/media/sweat.png": "/Samruddhi08G/AdobeReactAssignment/static/media/sweat.be8a333ac8b292aee147.png",
-    "static/media/materials.png": "/Samruddhi08G/AdobeReactAssignment/static/media/materials.ac3c80afb98202d30c79.png",
-    "static/media/feather.png": "/Samruddhi08G/AdobeReactAssignment/static/media/feather.5324d928440f0fc00eb7.png",
-    "static/media/breathable.png": "/Samruddhi08G/AdobeReactAssignment/static/media/breathable.935733a5ee94b4b80793.png",
-    "index.html": "/Samruddhi08G/AdobeReactAssignment/index.html",
-    "main.7dd3c899.css.map": "/Samruddhi08G/AdobeReactAssignment/static/css/main.7dd3c899.css.map",
-    "main.fe499dee.js.map": "/Samruddhi08G/AdobeReactAssignment/static/js/main.fe499dee.js.map"
+    "main.css": "/static/css/main.d40ef5d6.css",
+    "main.js": "/static/js/main.4e0ee80c.js",
+    "static/media/bannerImage.jpg": "/static/media/bannerImage.68e0f3de4d5f73aabf7f.jpg",
+    "static/media/sweat.png": "/static/media/sweat.be8a333ac8b292aee147.png",
+    "static/media/materials.png": "/static/media/materials.ac3c80afb98202d30c79.png",
+    "static/media/feather.png": "/static/media/feather.5324d928440f0fc00eb7.png",
+    "static/media/breathable.png": "/static/media/breathable.935733a5ee94b4b80793.png",
+    "index.html": "/index.html",
+    "main.d40ef5d6.css.map": "/static/css/main.d40ef5d6.css.map",
+    "main.4e0ee80c.js.map": "/static/js/main.4e0ee80c.js.map"
   },
   "entrypoints": [
-    "static/css/main.7dd3c899.css",
-    "static/js/main.fe499dee.js"
+    "static/css/main.d40ef5d6.css",
+    "static/js/main.4e0ee80c.js"
   ]
 }
