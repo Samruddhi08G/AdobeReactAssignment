@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300&family=Playfair+Display:ital,wght@1,500&display=swap');
+    
+   
+    // $header-width: 33.33%;
+    $header-top: 16px;
+    $header-color: #1b252c;
+    $header-background-color: #ffffff;
+    $header-font-family: 'Mulish', sans-serif;
+    $header-font-size: 16px;
+    $header-font-weight: 700;
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family:  $header-font-family;
+    color: $header-color;
+    padding: 15px 10%;
+    background-color: $header-background-color;
+    font-size: $header-font-size;
+    box-shadow: 0px 1px #f3efef;
+    font-weight: $header-font-weight;
+}
+
+.App-logo {
+    height: 18px;
+    width: 100px;
+  }
+
+nav{
+    display: flex;
+}
+
+.nav-middle-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1.5fr 1fr;
+    margin: 0px 229px;
+}
+
+.nav-right-section{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.5fr 1.5fr 0.5fr;
+}
+
+.header-icon{
+    height: 16px;
+    margin-top: 3px;
+}
+
+.user-icon{
+    margin-left: 20px;
+}
+
+.nav-mobile-middle-section{
+    display: none;
+}
+.menu-icon{
+     display: none;
+}
+
+@media only screen and (max-width: 767px) and (min-width: 320px) {
+    .nav-middle-section{
+        display: none;
+    }
+    .search-field{
+        display: none;
+    }
+    .user-icon{
+        display: none;  
+    }
+    .sign-in-field{
+        display: none;  
+    }
+    .menu-icon{
+        display: block; 
+    }
+}
