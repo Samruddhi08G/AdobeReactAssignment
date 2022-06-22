@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Samruddhi08G/AdobeReactAssignment/static/css/main.7dd3c899.css",
+    "main.js": "/Samruddhi08G/AdobeReactAssignment/static/js/main.e3d7dc24.js",
+    "static/media/bannerImage.jpg": "/Samruddhi08G/AdobeReactAssignment/static/media/bannerImage.68e0f3de4d5f73aabf7f.jpg",
+    "static/media/sweat.png": "/Samruddhi08G/AdobeReactAssignment/static/media/sweat.be8a333ac8b292aee147.png",
+    "static/media/materials.png": "/Samruddhi08G/AdobeReactAssignment/static/media/materials.ac3c80afb98202d30c79.png",
+    "static/media/feather.png": "/Samruddhi08G/AdobeReactAssignment/static/media/feather.5324d928440f0fc00eb7.png",
+    "static/media/breathable.png": "/Samruddhi08G/AdobeReactAssignment/static/media/breathable.935733a5ee94b4b80793.png",
+    "index.html": "/Samruddhi08G/AdobeReactAssignment/index.html",
+    "main.7dd3c899.css.map": "/Samruddhi08G/AdobeReactAssignment/static/css/main.7dd3c899.css.map",
+    "main.e3d7dc24.js.map": "/Samruddhi08G/AdobeReactAssignment/static/js/main.e3d7dc24.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7dd3c899.css",
+    "static/js/main.e3d7dc24.js"
+  ]
+}
