@@ -1,18 +1,22 @@
 {
   "files": {
-    "main.css": "/adobereactassignment/static/css/main.5596eb29.css",
-    "main.js": "/adobereactassignment/static/js/main.6d379df4.js",
+    "main.css": "/adobereactassignment/static/css/main.529d73ac.css",
+    "main.js": "/adobereactassignment/static/js/main.fb55e245.js",
+    "static/media/cc_image1.jpg": "/adobereactassignment/static/media/cc_image1.474294d3c9f202fd43b9.jpg",
     "static/media/bannerImage.jpg": "/adobereactassignment/static/media/bannerImage.68e0f3de4d5f73aabf7f.jpg",
+    "static/media/cc_image2.jpg": "/adobereactassignment/static/media/cc_image2.1b6b8ca6875cdfba64a1.jpg",
+    "static/media/cc_image4.jpg": "/adobereactassignment/static/media/cc_image4.e9b446ab3d5efecc84b7.jpg",
     "static/media/sweat.png": "/adobereactassignment/static/media/sweat.be8a333ac8b292aee147.png",
     "static/media/materials.png": "/adobereactassignment/static/media/materials.ac3c80afb98202d30c79.png",
+    "static/media/cc_image3.jpg": "/adobereactassignment/static/media/cc_image3.b64f1c03785586da79eb.jpg",
     "static/media/feather.png": "/adobereactassignment/static/media/feather.5324d928440f0fc00eb7.png",
     "static/media/breathable.png": "/adobereactassignment/static/media/breathable.935733a5ee94b4b80793.png",
     "index.html": "/adobereactassignment/index.html",
-    "main.5596eb29.css.map": "/adobereactassignment/static/css/main.5596eb29.css.map",
-    "main.6d379df4.js.map": "/adobereactassignment/static/js/main.6d379df4.js.map"
+    "main.529d73ac.css.map": "/adobereactassignment/static/css/main.529d73ac.css.map",
+    "main.fb55e245.js.map": "/adobereactassignment/static/js/main.fb55e245.js.map"
   },
   "entrypoints": [
-    "static/css/main.5596eb29.css",
-    "static/js/main.6d379df4.js"
+    "static/css/main.529d73ac.css",
+    "static/js/main.fb55e245.js"
   ]
 }
